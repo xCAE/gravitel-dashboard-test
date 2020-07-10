@@ -1,0 +1,35 @@
+{
+  "include": ["src", "typings/custom.d.ts"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"noImplicitAny": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"noEmit": true,
+		"target": "es5",
+		"lib": [
+			"es5",
+			"es6",
+			"es2017",
+			"dom"
+		],
+		"module": "commonjs",
+		"outDir": "dist",
+		"sourceMap": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"node_modules",
+		"**/__tests__/*.test.ts",
+		"e2e/fixtures/*.test.ts",
+		"**/__tests__/*.spec.ts",
+		"e2e/fixtures/*.spec.ts"
+	],
+	"compileOnSave": false,
+	"buildOnSave": false,
+	"typeRoots": [
+		"./node_modules/@types",
+		"./typings"
+	]
+}

@@ -1,0 +1,19 @@
+query DashboardStat {
+	dashboard {
+		lists {
+			active,
+			inactive,
+			completed
+		},
+		dialogs {
+			active,
+			inactive,
+			completed
+		},
+		scenarios {
+			active,
+			inactive,
+			completed
+		}
+	},
+}
